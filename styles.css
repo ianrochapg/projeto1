@@ -10,3 +10,9 @@ section.servicos{
 section.contato{
   background-color: green;
 }
+@media (max-width: 600px){
+body{
+  display: block;
+}
+
+}
