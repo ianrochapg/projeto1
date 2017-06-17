@@ -1,3 +1,6 @@
+body{
+  display: flex;
+}
 section.home{
   background-color: black;
 }
