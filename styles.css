@@ -11,6 +11,10 @@ table {
   margin-right: auto;
 }
 
+td {
+  padding: 10px;
+}
+
 .home {
 
 }
