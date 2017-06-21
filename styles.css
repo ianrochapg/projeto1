@@ -1,5 +1,5 @@
 body {
-  background-image: url('imagens/BGProv.jpg');
+  background-image: url('imagens/carta-pronta.jpg');
   background-size: cover;
   margin: 0;
 
@@ -30,7 +30,7 @@ td {
 
 .servicos {
   display: flex;
-  width: 80%;
+  width: 85%;
 }
 
 .servicos-esquerda{
@@ -40,11 +40,17 @@ td {
 .servicos-direita{
     width: 50%;
 }
-.servicos-direita img{
-    width: 100px;
+
+.pad{
+  padding-left: 50px;
 }
+
 .servicos-esquerda img{
     width: 100px;
+}
+
+.servicos-direita img{
+    width: 150px;
 }
 
 .contato {
