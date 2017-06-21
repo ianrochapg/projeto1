@@ -29,7 +29,21 @@ td {
 }
 
 .servicos {
+  display: flex;
+}
 
+.servicos-esquerda{
+    width: 50%;
+}
+
+.servicos-direita{
+    width: 50%;
+}
+.servicos-direita img{
+    width: 100px;
+}
+.servicos-esquerda img{
+    width: 100px;
 }
 
 .contato {
