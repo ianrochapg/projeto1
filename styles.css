@@ -30,6 +30,7 @@ td {
 
 .servicos {
   display: flex;
+  width: 80%;
 }
 
 .servicos-esquerda{
