@@ -16,7 +16,6 @@ td {
 }
 
 .home {
-
 }
 
 .idiomas img {
@@ -41,16 +40,21 @@ td {
     width: 50%;
 }
 
+.servicos-direita img{
+    width: 150px;
+}
+
 .pad{
   padding-left: 50px;
 }
 
-.servicos-esquerda img{
-    width: 100px;
-}
-
-.servicos-direita img{
-    width: 150px;
+.historia{
+  color: white;
+  /*text-align: justify;*/
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .contato {
@@ -67,4 +71,9 @@ td {
   background-color: black;
   height: 150px;
 
+}
+@media (max-width: 600px){
+body{
+  display: block;
+}
 }
