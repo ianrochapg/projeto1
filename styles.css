@@ -38,6 +38,7 @@ td {
 
 .servicos-direita{
     width: 50%;
+    color: white;
 }
 
 .servicos-direita img{
@@ -47,6 +48,7 @@ td {
 .pad{
   padding-left: 50px;
 }
+
 
 .historia{
   color: white;
