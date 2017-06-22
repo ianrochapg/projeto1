@@ -15,6 +15,11 @@ td {
   padding: 10px;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
 .home {
 }
 
@@ -30,19 +35,37 @@ td {
 .servicos {
   display: flex;
   width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .servicos-esquerda{
-    width: 50%;
+  width: 50%;
+
 }
 
 .servicos-direita{
     width: 50%;
     color: white;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+
 }
 
 .servicos-direita img{
-    width: 150px;
+  height: 120px;
+}
+.servicos-direita td{
+  padding: 0;
+}
+
+.servicos ul{
+  color: white;
+  font-size: 20px;
+}
+.servicos li{
+  padding-bottom: 40px;
 }
 
 .pad{
@@ -52,8 +75,7 @@ td {
 
 .historia{
   color: white;
-  /*text-align: justify;*/
-  margin-left: auto;
+    margin-left: auto;
   margin-right: auto;
   font-size: 40px;
   font-family: 'Julius Sans One', sans-serif;
@@ -76,6 +98,22 @@ td {
 }
 @media (max-width: 600px){
 body{
+}
+.servicos{
   display: block;
+  width: 100%;
+}
+.servicos-direita{
+  display: flex;
+  width: 100%;
+}
+.servicos-esquerda{
+  width: 100%;
+}
+.servicos-direita img{
+  height: 50px;
+}
+table{
+  width: 100%;
 }
 }
