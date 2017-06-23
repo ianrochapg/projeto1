@@ -133,6 +133,11 @@ body{
 .servicos-direita img{
   height: 50px;
 }
+
+.servicos h1{
+  margin-left: 30px;
+}
+
 table{
   width: 100%;
 }
