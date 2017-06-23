@@ -85,7 +85,7 @@ a{
 
 .historia{
   color: white;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   font-size: 40px;
   font-family: 'Julius Sans One', sans-serif;
@@ -97,6 +97,16 @@ a{
   text-align: center;
   font-size: large;
 
+}
+
+.icones {
+  height: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.icones img {
+  padding-left: 20px;
 }
 
 .rodape {
